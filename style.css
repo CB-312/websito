@@ -1,0 +1,48 @@
+header{
+  text-align: center;
+      background:linear-gradient(to top, #3636ad, #000000);
+}
+.logo{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 150px;
+  height: 150px;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+    background-color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+.container{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.aleluia{
+    margin-left: 160px;
+  margin-right: 160px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #bfbfe059;
+  border-color: rgba(0, 0, 0, 0.432);
+  border-width: 1mm;
+  border-style: solid;
+  text-align: center;
+}
+.caixa{
+  background-color: #bfbfe059;
+  border-color: rgba(0, 0, 0, 0.432);
+  border-width: 1mm;
+  border-style: dashed;
+}
+.AlertaImg{
+width: 250px;
+height: 300;
+}
+details.spoiler::after {
+    content: var(--oculto);
+  }
+  
+  details[open]::after {
+    display: none;
+  }
